@@ -9,10 +9,11 @@ alzheimers-prediction/
 │
 ├── models/
 │
+│── config.py
+│
 ├── pyproject.toml # poetre configuration
 │
 ├── src/
-│   ├── config.py
 │   ├── data_loader.py    # Code to load and prepare images
 │   ├── model.py          # Model architecture definition
 │   ├── train.py          # training the model
@@ -20,5 +21,6 @@ alzheimers-prediction/
 │   ├── predict.py        # making predictions
 │   └── utils.py          # Helper functions
 │
+├── tests/
 └── requirements.txt
 ```
